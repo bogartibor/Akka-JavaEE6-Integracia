@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/WebContactManager">
+    <Resource name="jdbc/sample2" auth="Container" type="javax.sql.DataSource"
+            driverClassName="org.apache.derby.jdbc.ClientDriver"
+            username="sample2" password="sample2"
+            url="jdbc:derby://localhost:1527/sample2"
+    />
+</Context>
