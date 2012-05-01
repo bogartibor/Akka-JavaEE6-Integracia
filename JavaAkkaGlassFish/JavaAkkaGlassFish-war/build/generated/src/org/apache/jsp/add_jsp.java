@@ -116,7 +116,7 @@ public final class add_jsp extends org.apache.jasper.runtime.HttpJspBase
     if (_jspx_eval_c_if_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
         out.write("\n");
-        out.write("            <div style=\"border: solid 1px black; background-color: palegoldenrod; padding: 10px\">\n");
+        out.write("            <div style=\"border: solid 1px black; background-color: yellow; padding: 10px\">\n");
         out.write("                ");
         if (_jspx_meth_c_out_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_if_0, _jspx_page_context))
           return true;

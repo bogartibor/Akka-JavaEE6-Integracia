@@ -1,5 +1,5 @@
 <%-- 
-    Document   : index
+    Document   : list
     Created on : 22.4.2012, 10:20:45
     Author     : xbogar
 --%>

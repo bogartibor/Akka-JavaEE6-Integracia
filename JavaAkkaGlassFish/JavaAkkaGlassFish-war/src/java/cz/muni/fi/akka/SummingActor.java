@@ -9,16 +9,18 @@ import akka.actor.ActorRef;
 import akka.actor.UntypedActor;
 import java.util.ArrayList;
 import java.util.Collection;
+import javax.inject.Inject;
 /**
  *
  * @author $xbogar
  */
-
+@Actor @Sum
 public class SummingActor extends UntypedActor{
  
     private final ActorRef logger;
     
-    public SummingActor( ActorRef logger) {
+    @Inject
+    public SummingActor(ActorRef logger) {
         this.logger = logger;
     }
     

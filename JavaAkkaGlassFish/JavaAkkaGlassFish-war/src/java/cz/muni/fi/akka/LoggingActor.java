@@ -17,7 +17,7 @@ import java.util.List;
  * @author xbogar
  */
 
-
+@Actor @Log
 public class LoggingActor extends UntypedActor{
     
     LoggingAdapter log = Logging.getLogger(getContext().system(), this);
